@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        LoanManager m1 = new LoanManager();
+        LoanManager m1 = new LoanManager(); //create object from class LoanManager
         m1.addLoan("Alice Betsy", 100, 0.1);
         m1.addLoan("Ben Chee", 50, 0.2);
         m1.addLoan("Chris Davis", 30, 0.3);
@@ -15,5 +15,6 @@ public class Main {
         m2.setAsPaid("Alice Betsy");
         m2.listLoans();
         System.out.println("profit from m2: " + m2.calculateProfitEarned());
+        System.out.println("Max loan amount: "+ Loan.maxloanamount);
     }
 }

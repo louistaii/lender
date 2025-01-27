@@ -1,5 +1,5 @@
 public class LoanManager {
-    private Loan[] loans = new Loan[100];
+    private Loan[] loans = new Loan[100]; //creates 100 objects from class Loan
     private int loansCount = 0;
 
     public void addLoan(String borrower, int amount, double interestRate) {
